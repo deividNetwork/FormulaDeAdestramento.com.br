@@ -1,0 +1,932 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,800);
+
+@font-face {
+    font-family: "Netshoes";
+    src: url("../font/netshoesdisplay-black.ttf");
+}
+
+@font-face {
+    font-family: "Gotham Light";
+    src: url("../font/gotham-light.ttf");
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Netshoes;
+    text-transform: uppercase;
+}
+
+p, span, ul {
+    font-family: Open Sans;
+}
+
+a, button {
+    outline: none;
+}
+
+/* BEGIN HEADER */
+header .top-header {
+    padding: 15px 0;
+    background: #FFF;
+}
+
+header .top-header .logo {
+}
+
+header .top-header .logo img {
+}
+
+header .top-header .menu {
+    margin: 23px 0 0;
+}
+
+header .top-header .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header .top-header .menu ul li {
+    display: inline-block;
+}
+
+header .top-header .menu ul li:after {
+    content: "|";
+    margin: 0 25px;
+}
+
+header .top-header .menu ul li:last-child:after {
+    display: none;
+}
+
+header .top-header .menu ul li a {
+    color: #000;
+    font: normal 16px Open Sans;
+}
+
+header .top-header .call-to-action {
+    text-align: right;
+    margin: 9px 0 0;
+}
+
+header .top-header .call-to-action a {
+    font: 800 14px Open Sans;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    display: inline-block;
+    background: linear-gradient(#f26b20, #f53a00);
+    border: 1px solid #f53a00;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+
+header .top-header .call-to-action a:hover {
+    background: linear-gradient(#f53a00, #f26b20);
+}
+
+header .middle-header {
+    background: url(../image/bg-header-middle.png);
+    background-size: cover;
+    padding: 25px 0 10px;
+}
+
+header .middle-header .dog-render {
+}
+
+header .middle-header .infos {
+}
+
+header .middle-header .infos h1 {
+    margin: 70px 0 0;
+    text-align: center;
+}
+
+header .middle-header .infos h1 small {
+    font-weight: normal;
+    color: #FFF;
+    line-height: 50px;
+    display: block;
+    position: relative;
+    font-size: 40px;
+    margin: 20px 0 0;
+}
+
+header .middle-header .infos h1 small img {
+    position: absolute;
+    bottom: -20px;
+    left: 165px;
+    font-size: 40px;
+}
+
+header .middle-header .infos a.btn {
+    font: 800 20px Open Sans;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    margin: 30px 0 0;
+    display: inline-block;
+    background: linear-gradient(#f26b20, #f53a00);
+    border: 1px solid #f53a00;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+
+header .middle-header .infos a.btn:hover {
+    background: linear-gradient(#f53a00, #f26b20);
+}
+
+header .middle-header .infos h1 big {
+    font-size: 60px;
+    font-weight: normal;
+    color: #FFF;
+    line-height: 65px;
+}
+
+header .middle-header .infos h1 big strong {
+    color: #ffde27;
+    display: block;
+}
+
+header .middle-header .infos .video {
+    margin: 15px 0 0;
+    display: none;
+}
+
+header .middle-header .infos .video a {
+    float: left;
+    font: normal 25px Gotham Light;
+    color: #FFF;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    margin: 30px 40px 0 0;
+}
+
+header .middle-header .infos .video a img {
+    position: absolute;
+    bottom: -41px;
+    right: -20px;
+}
+
+header .middle-header .infos .video .iframe,
+header .middle-header .infos .video .iframe img,
+header .middle-header .infos .video .iframe iframe {
+    width: 390px;
+    height: 293px;
+}
+
+header .middle-header .infos .video .iframe {
+    position: relative;
+    float: left;
+    background: #000;
+}
+
+header .middle-header .infos .video .iframe img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    cursor: pointer;
+}
+
+header .middle-header .infos .video .iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header .middle-header a.center-btn {
+    font: 800 20px Open Sans;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    display: inline-block;
+    background: linear-gradient(#f26b20, #f53a00);
+    text-shadow: 1px 1px 1px #b82c00;
+    border: 1px solid #f53a00;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: -35px;
+    font-size: 24px;
+}
+
+header .middle-header a.center-btn:hover {
+    background: linear-gradient(#f53a00, #f26b20);
+}
+
+header .middle-header a.center-btn span {
+    font: 400 18px Open Sans;
+}
+
+/* END HEADER */
+
+/* BEGIN E-BOOK SESSION */
+
+section.e-book {
+    background: #f7f7f7;
+    padding: 70px 0 120px;
+    margin: 0 0 50px;
+}
+
+section.e-book img {
+    position: absolute;
+}
+
+section.e-book h3 {
+    color: #01AA00;
+    font-size: 30px;
+    margin: 0 0 30px;
+}
+
+section.e-book ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+section.e-book ul li span {
+    font-size: 28px;
+    font-weight: lighter;
+    color: #000;
+    margin: 0 0 10px 0;
+    line-height: normal;
+    vertical-align: -webkit-baseline-middle;
+    display: inline-block;
+}
+
+section.e-book ul li i {
+    font-family: Netshoes;
+    font-style: normal;
+    color: #FFF;
+    background: #FF3100;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 29px;
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+    vertical-align: middle;
+}
+
+/* END E-BOOk SESSION */
+
+/* BEGIN TESTIMONIALS SESSION */
+
+section.testimonials {
+}
+
+section.testimonials h2 {
+    color: #01AA00;
+    font-size: 60px;
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+section.testimonials .profiles {
+    text-align: center;
+}
+
+section.testimonials .profiles .item {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 50px;
+}
+
+section.testimonials .profiles .item img {
+    border-radius: 50%;
+}
+
+section.testimonials .profiles .item h4 {
+    margin: 15px 0 20px;
+    color: #FF3100;
+    font-size: 18px;
+}
+
+section.testimonials .profiles .item .infos {
+    background-color: #f7f7f7;
+    background-image: url(../image/dog-paw.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 310px;
+    position: relative;
+    margin: 0 0 50px;
+}
+
+section.testimonials .profiles .item .infos .text {
+    width: 100%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    padding: 0 20px;
+}
+
+section.testimonials .profiles .item .infos .text span {
+    font-size: 15px;
+    color: #6c6c6c;
+}
+
+/* END TESTIMONIALS SESSION */
+
+/* BEGIN BUY NOW SESSION */
+
+section.buy-now {
+    margin: -65px 0 0;
+}
+
+section.testimonials .profiles .item h3 {
+    font-size: 20px;
+    color: #31B000;
+    margin: 65px 0 0;
+}
+
+section.testimonials .profiles .item img {
+}
+
+section.testimonials .profiles .item a.right-btn {
+    font: 800 20px Open Sans;
+    text-transform: uppercase;
+    padding: 15px 15px;
+    display: inline-block;
+    background: linear-gradient(#f26b20, #f53a00);
+    text-shadow: 1px 1px 1px #b82c00;
+    border: 1px solid #f53a00;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    z-index: 100;
+}
+
+section.testimonials .profiles .item a.right-btn:hover {
+    background: linear-gradient(#f53a00, #f26b20);
+}
+
+section.testimonials .profiles .item a.right-btn span {
+    font: 400 16px Open Sans;
+}
+
+/* END BUY NOW SESSION */
+
+/* BEGIN SOLVE THEIR PROBLEMS SESSION */
+
+section.solve-their-problems {
+    background: url(../image/bg-solve-their-problems.png);
+    background-size: contain;
+    background-position: center;
+    padding: 40px 0;
+    margin: 75px 0 0;
+}
+
+section.solve-their-problems h2 {
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+section.solve-their-problems h2 small {
+    font-family: Gotham Light;
+    color: #FFF;
+    display: block;
+    font-size: 25px;
+}
+
+section.solve-their-problems h2 big {
+    color: #FFF;
+    font-size: 60px;
+}
+
+section.solve-their-problems p {
+    font-size: 30px;
+    color: #FFF;
+}
+
+/* END SOLVE THEIR PROBLEMS SESSION */
+
+/* BEGIN MORE_INFOS SESSION */
+
+section.more-infos {
+    background: #f7f7f7;
+    padding: 50px 0 30px;
+}
+
+section.more-infos .message {
+}
+
+section.more-infos .message h4 {
+    font-size: 22px;
+    color: #FF3100;
+    margin: 0 0 20px;
+}
+
+section.more-infos .message .infos {
+    background-color: #f2f2f2;
+    background-image: url(../image/dog-paw.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 285px;
+    position: relative;
+    margin: 0 0 50px;
+}
+
+section.more-infos .message .infos .text {
+    width: 100%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    padding: 0 20px;
+}
+
+section.more-infos .message .infos .text span {
+    font-size: 15px;
+    color: #6c6c6c;
+}
+
+section.more-infos .cards {
+    text-align: right;
+}
+
+section.more-infos .cards .inside {
+    width: 500px;
+    max-width: calc(100% - 30px);
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #01AA00;
+    display: inline-block;
+}
+
+section.more-infos .cards .inside h4 {
+    font-size: 36px;
+    color: #01AA00;
+    margin: 0 0 25px;
+}
+
+section.more-infos .cards .inside span {
+    font-family: Gotham Light;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #8c8c8c;
+}
+
+section.more-infos .cards .inside span i {
+    font-style: normal;
+    color: #FF6B0E;
+}
+
+section.more-infos .cards .inside span strong {
+    font-size: 60px;
+    font-family: Netshoes;
+    color: #FF3100;
+    line-height: 60px;
+}
+
+section.more-infos .cards .inside img {
+
+    margin: 30px 0;
+}
+
+section.more-infos .cards .inside a.btn {
+    font: 800 20px Open Sans;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    display: inline-block;
+    background: linear-gradient(#f26b20, #f53a00);
+    text-shadow: 1px 1px 1px #b82c00;
+    border: 1px solid #f53a00;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+}
+
+section.more-infos .cards .inside a.btn:hover {
+    background: linear-gradient(#f53a00, #f26b20);
+}
+
+section.more-infos .cards .inside a.btn span {
+    font: 400 16px Open Sans;
+    color: #FFF;
+}
+
+section.more-infos .bottom-more-infos {
+}
+
+section.more-infos .bottom-more-infos h3 {
+    font-size: 40px;
+    color: #01AA00;
+    margin: 30px 0 20px;
+}
+
+section.more-infos .bottom-more-infos .list {
+}
+
+section.more-infos .bottom-more-infos .list h4 {
+    font-size: 25px;
+    color: #FF3100;
+    margin: 0 0 10px;
+}
+
+section.more-infos .bottom-more-infos .list p {
+    font-size: 20px;
+    color: #6c6c6c;
+    margin: 0 0 20px;
+}
+
+section.more-infos .bottom-more-infos .seals {
+}
+
+section.more-infos .bottom-more-infos .seals img {
+    margin: 0 0 40px;
+}
+
+/* END MORE INFOS SESSION */
+
+/* BEGIN TRAINING OF FORMULA SESSION */
+
+section.training-of-formula {
+    padding: 30px 0;
+}
+
+section.training-of-formula h2 {
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+section.training-of-formula h2 small {
+    font-family: Gotham Light;
+    font-size: 25px;
+    margin: 0 0 10px;
+    display: block;
+    color: #FF3100;
+}
+
+section.training-of-formula h2 big {
+    font-size: 60px;
+    color: #FF3100;
+}
+
+section.training-of-formula h4 {
+    font-size: 18px;
+    color: #01AA00;
+    margin: 0 0 10px;
+}
+
+section.training-of-formula ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+section.training-of-formula ul li {
+    font-size: 15px;
+    color: #6c6c6c;
+}
+
+/* END TRAINING OF FORMULA SESSION */
+
+/* BEGIN E-BOOK DOWN SESSION */
+
+section.e-book-down {
+    background: #ebebeb;
+    text-align: center;
+    padding: 30px 0 30px;
+}
+
+section.e-book-down h2 {
+    color: #FF3100;
+    font-size: 60px;
+    margin: 0 0 40px;
+}
+
+section.e-book-down img {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: block;
+}
+
+section.e-book-down h3 {
+    margin: 0;
+}
+
+section.e-book-down h3 big {
+    font-size: 60px;
+    color: #01AA00;
+}
+
+section.e-book-down h3 small {
+    font-family: Open Sans;
+    font-size: 28px;
+    text-transform: none;
+    font-weight: lighter;
+    color: #000;
+    display: block;
+    margin: -2px 0 3px;
+}
+
+section.e-book-down a.btn {
+    font: 800 20px Open Sans;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    font-size: 24px;
+    display: inline-block;
+    background: linear-gradient(#6ebc20, #01AA00);
+    text-shadow: 1px 1px 1px #036F02;
+    border: 1px solid #01AA00;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+section.e-book-down .clock {
+    margin: 20px 0 20px;
+}
+
+section.e-book-down .clock span:not(.separator) {
+    width: 100px;
+    height: 100px;
+    background: #000;
+    display: inline-block;
+    font-size: 62px;
+    font-weight: 900;
+    margin: 0 5px 0;
+    color: #FFF;
+}
+
+section.e-book-down .clock span:not(.separator) span {
+    font-weight: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: block;
+    margin: 22px 0 0;
+    background: none;
+    color: #000;
+}
+
+section.e-book-down .clock span.separator {
+    vertical-align: top;
+    margin: 40px 0 0;
+    display: inline-block;
+    font-size: 100px;
+    color: #000;
+    line-height: 0;
+}
+
+section.e-book-down a.btn:hover {
+    background: linear-gradient(#01AA00, #6ebc20);
+}
+
+section.e-book-down a.btn span {
+    font: 400 20px Open Sans;
+    color: #FFF;
+    font-size: 18px;
+    display: block;
+    margin: -2px 0 0;
+}
+
+/* END E-BOOK DOWN SESSION */
+
+/* BEGIN SEND DATA SESSION */
+
+section.send-data {
+    text-align: center;
+    background: #f7f7f7;
+    padding: 60px 0 30px;
+}
+
+section.send-data h2 {
+    font-size: 60px;
+    color: #01AA00;
+    margin: 0 0 10px;
+}
+
+section.send-data span {
+    font-family: Gotham Light;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #5b5b5b;
+}
+
+section.send-data img {
+}
+
+section.send-data .form {
+    text-align: right;
+}
+
+section.send-data .form form {
+    max-width: 450px;
+    display: inline-block;
+}
+
+section.send-data .form form .form-header {
+    background: #f26b20;
+    position: relative;
+    padding: 50px 15px 65px;
+}
+
+section.send-data .form form .form-header span {
+    color: #FFF;
+    background: #FF3100;
+    display: block;
+    font-family: Netshoes;
+    font-size: 22px;
+    line-height: 8px;
+    width: 180px;
+    height: 180px;
+    padding: 45px 0 0;
+    border-radius: 50%;
+    vertical-align: baseline;
+    position: absolute;
+    text-align: center;
+    top: -30px;
+    left: -30px;
+}
+
+section.send-data .form form .form-header span strong {
+    font-size: 60px;
+    margin: 0;
+    display: block;
+    line-height: 85px;
+}
+
+section.send-data .form form .form-header span strong i {
+    font-style: normal;
+    font-size: 25px;
+    vertical-align: top;
+}
+
+section.send-data .form form .form-header h3 {
+    color: #FFF;
+    font-size: 32px;
+    text-align: right;
+    margin: 0;
+}
+
+section.send-data .form form .form-body {
+    background: #F26B20;
+    padding: 0 15px 30px;
+}
+
+section.send-data .form form .form-body input[type="text"]:nth-child(1) {
+    width: calc(50% - 5px);
+    float: left;
+}
+
+section.send-data .form form .form-body input[type="text"]:nth-child(2) {
+    width: calc(50% - 5px);
+    float: right;
+}
+
+section.send-data .form form .form-body input[type="text"] {
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: 0 0 10px;
+    width: 100%;
+    outline: none;
+}
+
+section.send-data .form form .form-footer {
+    text-align: center;
+}
+
+section.send-data .form form .form-footer img {
+    margin: 15px auto;
+    display: block;
+}
+
+section.send-data .form form .form-footer input[type="submit"] {
+    font: 800 20px Open Sans;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    font-size: 24px;
+    display: inline-block;
+    background: linear-gradient(#6ebc20, #01AA00);
+    text-shadow: 1px 1px 1px #036F02;
+    border: 1px solid #01AA00;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+section.send-data .form form .form-footer input[type="submit"]:hover {
+    background: linear-gradient(#01AA00, #6ebc20);
+}
+
+section.send-data .form form .form-footer label {
+    margin: 10px 0 0;
+}
+
+section.send-data .form form .form-footer label input[type="checkbox"] {
+    vertical-align: sub;
+}
+
+section.send-data .form form .form-footer label span {
+    font-size: 11px;
+    text-transform: none;
+    vertical-align: bottom;
+    color: #7a7a7a;
+}
+
+/* END SEND DATA SESSION*/
+
+/* BEGIN CONTACT SESSION */
+
+section.contact {
+    padding: 40px 0 20px;
+    text-align: center;
+}
+
+section.contact a[href*="mailto"] {
+    color: #555;
+    font: 40px Netshoes;
+    margin: 0 0 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+section.contact a[href*="mailto"] strong {
+    color: #FF6B0E;
+}
+
+/* BEGIN CONTACT SESSION */
+
+/* BEGIN FOOTER */
+
+footer {
+}
+
+footer .footer-top {
+    padding: 20px 0;
+    font-size: 14px;
+    color: #6c6c6c;
+}
+
+footer .footer-bottom {
+    background: #f26b20;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .footer-bottom h4 {
+    font-family: Open Sans;
+    font-size: 14px;
+    color: #FFF;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+
+footer .footer-bottom img {
+}
+
+/* END FOOTER*/
+
+/* DETAILS */
+.clear {
+    clear: both;
+}
+
+/* OTHERS */
+header .top-header.fixed.open {
+    top: 0;
+    opacity: 1;
+}
+
+header .top-header.fixed {
+    position: fixed;
+    top: -99px;
+    left: 0;
+    width: 100%;
+    transition: all 0.2s linear 0s;
+    z-index: 200;
+    padding: 10px 0;
+    opacity: 0;
+}
+
+header .top-header.fixed .logo img {
+    max-height: 50px;
+}
+
+header .top-header.fixed .menu {
+    margin: 13px 0 0;
+}
+
+header .top-header.fixed .call-to-action {
+    margin: 0;
+}

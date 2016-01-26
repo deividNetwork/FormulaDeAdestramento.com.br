@@ -1,0 +1,378 @@
+/* BEGIN DESKTOP */
+
+@media screen and (min-width: 795px) {
+    @media screen and (max-width: 795px) {
+        section.send-data h2 {
+            margin: -15px 0 10px;
+        }
+    }
+}
+
+/* END DESKTOP */
+
+/* BEGIN NORMAL SMARTPHONES */
+
+@media screen and (max-width: 795px) {
+    input[type="submit"], button, a {
+        max-width: 100%;
+    }
+
+    header .top-header .logo {
+        text-align: center;
+    }
+
+    header .top-header .menu ul li:after {
+        display: none;
+    }
+
+    header .top-header.fixed .logo,
+    header .top-header.fixed .menu {
+        display: none;
+    }
+
+    header .middle-header .infos h1 small img {
+        display: none;
+    }
+
+    header .top-header.fixed .call-to-action {
+        text-align: center;
+    }
+
+    header .top-header.fixed .call-to-action a {
+        padding: 10px 50px;
+    }
+
+    header .top-header .call-to-action {
+        display: none;
+    }
+
+    header .top-header.fixed .call-to-action {
+        display: block !important;
+    }
+
+    header .top-header .menu ul li {
+        display: block;
+    }
+
+    header .top-header .menu ul li a {
+        display: block;
+        background: linear-gradient(#0083CB, #009BD6);
+        color: #FFF;
+        margin-bottom: 2px;
+        padding: 8px 10px;
+        font-size: 1em;
+        text-decoration: none;
+        border-radius: 2px;
+        text-align: center;
+    }
+
+    header .top-header .menu ul li a:hover {
+        background: linear-gradient(#009BD6, #0083CB);
+    }
+
+    header .middle-header .dog-render {
+        display: none;
+    }
+
+    header .middle-header .infos h1 {
+        text-align: center;
+        margin: 0;
+    }
+
+    header .middle-header .infos h1 small {
+        font-size: 18px;
+    }
+
+    header .middle-header .infos h1 big {
+        font-size: 32px;
+        line-height: normal;
+    }
+
+    header .middle-header .infos a.btn {
+        margin: 30px 0 30px;
+    }
+
+    header .middle-header .infos .video a {
+        display: block;
+        margin: 0 0 30px;
+        font-size: 20px;
+        float: none;
+    }
+
+    header .middle-header .infos .video a img {
+        bottom: -5px;
+        right: 130px;
+        left: 0;
+        margin: 0 auto;
+        transform: rotate(90deg);
+    }
+
+    header .middle-header .infos .video .iframe, header .middle-header .infos .video .iframe img, header .middle-header .infos .video .iframe iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    header .middle-header {
+        padding: 40px 0 50px;
+    }
+
+    header .middle-header a.center-btn {
+        font-size: 18px;
+        white-space: nowrap;
+        top: 20px;
+    }
+
+    section.e-book img {
+        position: static;
+        max-width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    section.e-book h3 {
+        font-size: 24px;
+    }
+
+    section.e-book ul li i {
+        font-size: 18px;
+    }
+
+    section.e-book ul li span {
+        font-size: 17px;
+    }
+
+    section.e-book {
+        padding: 70px 0 50px;
+    }
+
+    section.testimonials h2 {
+        font-size: 30px;
+    }
+
+    section.testimonials .profiles .item {
+        width: 100%;
+        margin: 0;
+    }
+
+    section.testimonials .profiles .item img {
+        max-height: 150px;
+    }
+
+    section.testimonials .profiles .item .infos .text span {
+        font-size: 1em;
+    }
+
+    section.testimonials .profiles .item h3 {
+        display: none;
+    }
+
+    section.testimonials .profiles .item .infos {
+        margin: 0 0 30px;
+    }
+
+    section.testimonials .profiles .item a.right-btn {
+        font-size: 18px;
+    }
+
+    section.solve-their-problems h2 small {
+        font-size: 18px;
+    }
+
+    section.solve-their-problems h2 big {
+        font-size: 32px;
+    }
+
+    section.solve-their-problems p {
+        font-size: 16px;
+    }
+
+    section.more-infos .message h4 {
+        font-size: 20px;
+    }
+
+    section.more-infos .message .infos .text span {
+        font-size: 1em;
+    }
+
+    section.more-infos .cards .inside h4 {
+        font-size: 26px;
+    }
+
+    section.more-infos .cards .inside span {
+    }
+
+    section.more-infos .cards .inside span strong {
+        font-size: 40px;
+    }
+
+    section.more-infos .cards .inside img {
+        max-width: 100%;
+        margin: 20px 0 30px;
+    }
+
+    section.more-infos .cards .inside a.btn {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    section.more-infos .cards .inside {
+        width: 100%;
+        padding: 20px 10px;
+        border-radius: 5px;
+    }
+
+    section.more-infos .cards {
+        text-align: center;
+    }
+
+    section.more-infos .bottom-more-infos h3 {
+        font-size: 24px;
+    }
+
+    section.more-infos .bottom-more-infos .list h4 {
+        font-size: 20px;
+    }
+
+    section.more-infos .bottom-more-infos .list p {
+        font-size: 1em;
+    }
+
+    section.more-infos .bottom-more-infos .seals img {
+        margin: 0 10px;
+    }
+
+    section.training-of-formula h2 small {
+        font-size: 18px;
+    }
+
+    section.training-of-formula h2 big {
+        font-size: 32px;
+    }
+
+    section.training-of-formula ul li {
+        font-size: 1em;
+    }
+
+    section.e-book-down img {
+        position: static;
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+    section.e-book-down .clock span:not(.separator) {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 50px;
+    }
+
+    section.e-book-down .clock span.separator {
+        font-size: 80px;
+        margin: 30px 0 0;
+    }
+
+    section.e-book-down .clock span:not(.separator) span {
+        margin: 10px 0 0;
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    section.e-book-down h3 big {
+        font-size: 32px;
+    }
+
+    section.e-book-down h3 small {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    section.e-book-down a.btn {
+        font-size: 16px;
+    }
+
+    section.e-book-down a.btn span {
+        font-size: 15px;
+    }
+
+    section.e-book-down h2 {
+        font-size: 32px;
+    }
+
+    section.send-data h2 {
+        font-size: 32px;
+    }
+
+    section.send-data span {
+        font-size: 18px;
+    }
+
+    section.send-data .form form .form-header span {
+        font-size: 18px;
+        width: 130px;
+        height: 130px;
+        line-height: 0;
+        padding: 20px 0 0;
+        top: -40px;
+        left: -10px;
+    }
+
+    section.send-data .form form .form-header span strong i {
+        font-size: 18px;
+    }
+
+    section.send-data .form form .form-header span strong {
+        font-size: 40px;
+    }
+
+    section.send-data img {
+        max-width: 90%;
+    }
+
+    section.send-data .form {
+        margin: 50px 0 0;
+    }
+
+    section.send-data .form form .form-header h3 {
+        font-size: 20px;
+        padding: 0 15px;
+    }
+
+    section.send-data .form form {
+        max-width: 100%;
+    }
+
+    section.send-data .form form .form-header {
+        padding: 30px 0;
+    }
+
+    section.send-data .form form .form-footer input[type="submit"] {
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    section.contact a[href*="mailto"] {
+        font-size: 15px;
+    }
+
+    footer .footer-top {
+        font-size: 1em;
+    }
+
+    footer .footer-bottom img {
+        max-width: 100%;
+    }
+
+    footer .footer-bottom div[class^="col-md-6"]:nth-child(1) {
+        margin: 0 0 30px;
+    }
+}
+
+/* END NORMAL SMARTPHONES */
+
+/* BEGIN SMALL SMARTPHONES */
+
+@media screen and (max-width: 480px) {
+
+}
+
+/* END SMALL SMARTPHONES */
